@@ -2,7 +2,7 @@
   "name": "blog-articles",
   "version": "1.0.0",
   "description": "Blog website",
-  "main": "index.js",
+  "main": "./index",
   "scripts": {
     "devStart": "nodemon server.js"
   },
