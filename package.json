@@ -4,6 +4,7 @@
   "description": "Blog website",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",

@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 app.get('/article', async (req, res) => {
     const articles = await Article.find().sort({ last_updated_at: 'desc' })
-    res.render('articles/index', { articles: articles })
+    res.render('index', { articles: articles })
 })
 
 
